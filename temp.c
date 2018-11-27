@@ -1,6 +1,8 @@
 #include <signal.h>
 #include <stdio.h>
 
+
+
 void sig_quit(int signo)
 {
 	printf("caught SIGQUIT\n");
